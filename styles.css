@@ -1,0 +1,118 @@
+div.bg-container {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    }
+
+div.container {
+    background-color: white;
+    width: 55vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+
+img{
+    width: 55vw;
+    border-radius: 10px;
+}
+
+h1.title {
+    font-family: "Young serif", sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.intro-description {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%)
+}
+
+div.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    padding-bottom: 8.75px;
+}
+
+h3.prep-title {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 10px;
+    color:hsl(332, 51%, 32%);
+}
+
+li {
+    margin: 10px;
+    padding-left: 20px;
+}
+
+span.bullet-title {
+    color: hsl(30, 10%, 34%);
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+}
+
+span.bullet-text {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    padding-left: 4px;
+    font-weight: normal;
+}
+
+.h2-title{
+    font-family: "Young serif", sans-serif;
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+}
+
+ul.ul-ingredients {
+    color: hsl(14, 45%, 36%);
+    padding-left: 12px;
+}
+
+ul.ul-ingredients li span{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+
+ol.ol-instructions {
+  color:hsl(14, 45%, 36%);
+  padding-left: 12px;
+  font-weight: bolder;
+}
+
+div.table {
+    display: flex;
+    flex-direction: row;
+}
+
+div.col-left{
+    width: 50%;
+}
+
+div.col-right{
+    width: 50%;
+    font-weight: bold;
+    color:hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+}
+
+div.table-el {
+    padding-left: 2rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;}
+
+
+
+
+
