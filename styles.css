@@ -2,6 +2,7 @@ div.bg-container {
     background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
+    text-wrap: wrap;
     }
 
 div.container {
@@ -11,21 +12,73 @@ div.container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-
-img{
+div.top{
     width: 55vw;
+    padding:20px
+}
+
+div.text-body{
+    padding: 20px;
+}
+img{
+    width: 100%;
     border-radius: 10px;
+}
+
+@media (max-width:450px)  {
+    div.container {
+        width: 100vw;
+        margin: 0;
+        font-size: 14px;
+    }
+    img {
+        width: 100vw;
+        border-radius:0;
+    }
+    div.top {
+        width:100vw;
+        padding: 0;
+    }
+    div.text-body{
+        padding:20px
+    }
+    p.intro-description {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%)    }
+    span.intro-description{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: hsl(30, 10%, 34%)   
+    }
+}
+
+@media (max-width:260px) {
+    div.container {
+        font-size: 12px;
+    }
+    p.intro-description {
+        font-size: 12px;
+ }
+    span.intro-description{
+
+        font-size: 12px;  
+    }
 }
 
 h1.title {
     font-family: "Young serif", sans-serif;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
+    font-size: clamp(1rem, 0.3043rem + 3.4783vw, 2rem);
 }
+
 
 .intro-description {
     font-family: "Outfit", sans-serif;
@@ -44,6 +97,7 @@ h3.prep-title {
     color: hsl(332, 51%, 32%);
     font-family: "Outfit", sans-serif;
     font-weight: 600;
+    font-size: clamp(0.9rem, 0.3043rem + 3.4783vw, 1.15rem);
 }
 
 ul {
@@ -73,6 +127,7 @@ span.bullet-text {
     font-family: "Young serif", sans-serif;
     font-weight: 400;
     color:hsl(14, 45%, 36%);
+    font-size: clamp(0.9rem, 0.3043rem + 3.4783vw, 1.5rem);
 }
 
 ul.ul-ingredients {
